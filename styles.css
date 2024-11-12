@@ -8,10 +8,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Optional: Centers the image vertically on the page */
+    height: 100vh; /* Makes the image centered and takes up the full viewport height */
 }
 
 .centered-image img {
     max-width: 100%; /* Ensures the image is responsive */
-    height: auto; /* Keeps the image's aspect ratio */
+    height: auto; /* Maintains the image's aspect ratio */
 }

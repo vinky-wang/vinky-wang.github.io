@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: white; /* Changes the background color to white */
+    background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -13,6 +13,22 @@ body {
 }
 
 .centered-image img {
-    max-width: 50%; /* Reduces the image width to 50% of the container */
-    height: auto; /* Maintains the image's aspect ratio */
+    max-width: 50%;
+    height: auto;
 }
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.contact-info {
+    font-size: 1em; /* Adjusts the font size of the contact information */
+    margin-top: 10px;
+}
+
+.contact-info a {
+    color: inherit; /* Keeps the link color consistent with the text */
+    text-decoration: none;
+}
+

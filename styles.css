@@ -3,6 +3,7 @@ body {
     background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
+    color: #999999; /* Sets all default text color to #999999 */
 }
 
 .centered-image {
@@ -17,20 +18,14 @@ body {
     height: auto;
 }
 
-h1 {
-    font-size: 1.5em;
-    margin-top: 20px;
+h1, p, a, .separator {
+    color: #999999; /* Ensures all text, links, and separators are #999999 */
+    text-decoration: underline; /* Underlines all text and links */
 }
 
 .contact-info {
     font-size: 1em;
     margin-top: 10px;
-}
-
-.contact-info a,
-.cv-link a {
-    color: #999999;
-    text-decoration: underline;
 }
 
 .cv-link {
@@ -43,6 +38,8 @@ h1 {
 }
 
 .separator {
-    color: #999999; /* Sets the color of the bar separator */
+    color: #999999; /* Ensures the bar separator is also in #999999 */
 }
+
+
 

@@ -34,12 +34,12 @@ h1 {
 
 .cv-link {
     margin-top: 30px; /* Adds space above the link section */
+    font-size: 1em; /* Ensures both Home and CV links have the same font size */
 }
 
 .cv-link a {
     color: #999999; /* Sets both Home and CV link colors to #999999 */
     text-decoration: none; /* Removes underline */
-    font-size: 1em; /* Sets link font size */
     padding: 0 5px; /* Adds spacing between links and the bar */
 }
 

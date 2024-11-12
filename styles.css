@@ -3,3 +3,15 @@ body{
     background: pink;
     text-align: center;
 }
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Centers the image vertically on the page */
+}
+
+.centered-image img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Keeps the image's aspect ratio */
+}

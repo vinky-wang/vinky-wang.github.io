@@ -28,7 +28,6 @@ h1 {
 }
 
 .contact-info a {
-    color: inherit; /* Keeps the link color consistent with the text */
+    color: #999999; /* Sets the link color to #999999 */
     text-decoration: none;
 }
-

@@ -3,7 +3,8 @@ body {
     background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
-    color: #999999; /* Sets all default text color to #999999 */
+    color: #999999; /* Sets default text color to #999999 */
+    text-decoration: underline; /* Underlines all text by default */
 }
 
 .centered-image {
@@ -18,14 +19,23 @@ body {
     height: auto;
 }
 
-h1, p, a, .separator {
-    color: #999999; /* Ensures all text, links, and separators are #999999 */
-    text-decoration: underline; /* Underlines all text and links */
+/* Styling for specific elements to be black and not underlined */
+h1, .contact-info p {
+    color: black; /* Sets these elements to black */
+    text-decoration: none; /* Removes underline */
 }
 
 .contact-info {
     font-size: 1em;
     margin-top: 10px;
+}
+
+/* Styling for all links and separators */
+.contact-info a,
+.cv-link a,
+.separator {
+    color: #999999; /* Sets links and separators to #999999 */
+    text-decoration: underline; /* Underlines links and separators */
 }
 
 .cv-link {
@@ -36,10 +46,5 @@ h1, p, a, .separator {
 .cv-link a {
     padding: 0 5px;
 }
-
-.separator {
-    color: #999999; /* Ensures the bar separator is also in #999999 */
-}
-
 
 

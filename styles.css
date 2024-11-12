@@ -1,17 +1,18 @@
-body{
+body {
     margin: 0;
-    background: white;
+    background: white; /* Changes the background color to white */
     text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .centered-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px; /* Adds a bit of space above the image */
+    padding-top: 20px;
 }
 
 .centered-image img {
-    max-width: 80%; /* Adjusts the width to keep it visible on most screens */
+    max-width: 50%; /* Reduces the image width to 50% of the container */
     height: auto; /* Maintains the image's aspect ratio */
 }

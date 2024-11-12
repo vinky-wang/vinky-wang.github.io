@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    background: white; /* Sets background to white */
+    background: white;
     text-align: center;
-    font-family: Helvetica, Arial, sans-serif; /* Sets font to Helvetica */
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .centered-image {
@@ -13,33 +13,36 @@ body {
 }
 
 .centered-image img {
-    max-width: 50%; /* Reduces image size to 50% */
-    height: auto; /* Maintains the image's aspect ratio */
+    max-width: 50%;
+    height: auto;
 }
 
 h1 {
-    font-size: 1.5em; /* Adjusts heading font size */
+    font-size: 1.5em;
     margin-top: 20px;
 }
 
 .contact-info {
-    font-size: 1em; /* Adjusts font size of contact information */
+    font-size: 1em;
     margin-top: 10px;
 }
 
-.contact-info a {
-    color: #999999; /* Sets email link color to #999999 */
-    text-decoration: none; /* Removes underline */
+.contact-info a,
+.cv-link a {
+    color: #999999;
+    text-decoration: underline;
 }
 
 .cv-link {
-    margin-top: 30px; /* Adds space above the link section */
-    font-size: 1em; /* Ensures both Home and CV links have the same font size */
+    margin-top: 30px;
+    font-size: 1em;
 }
 
 .cv-link a {
-    color: #999999; /* Sets both Home and CV link colors to #999999 */
-    text-decoration: none; /* Removes underline */
-    padding: 0 5px; /* Adds spacing between links and the bar */
+    padding: 0 5px;
+}
+
+.separator {
+    color: #999999; /* Sets the color of the bar separator */
 }
 

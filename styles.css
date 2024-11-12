@@ -23,11 +23,22 @@ h1 {
 }
 
 .contact-info {
-    font-size: 1em; /* Adjusts the font size of the contact information */
+    font-size: 1em;
     margin-top: 10px;
 }
 
 .contact-info a {
-    color: #999999; /* Sets the link color to #999999 */
+    color: #999999;
     text-decoration: none;
 }
+
+.cv-link {
+    margin-top: 30px;
+}
+
+.cv-link a {
+    color: #999999; /* Sets the CV link color to #999999 */
+    text-decoration: none;
+    font-size: 1em;
+}
+

@@ -3,8 +3,7 @@ body {
     background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
-    color: #999999; /* Sets default text color to #999999 */
-    text-decoration: underline; /* Underlines all text by default */
+    color: #999999;
 }
 
 .centered-image {
@@ -19,10 +18,8 @@ body {
     height: auto;
 }
 
-/* Styling for specific elements to be black and not underlined */
 h1, .contact-info p {
-    color: black; /* Sets these elements to black */
-    text-decoration: none; /* Removes underline */
+    color: black;
 }
 
 .contact-info {
@@ -30,12 +27,14 @@ h1, .contact-info p {
     margin-top: 10px;
 }
 
-/* Styling for all links and separators */
-.contact-info a,
-.cv-link a,
+a {
+    color: #999999;
+    text-decoration: underline; /* Keeps underline for links */
+}
+
 .separator {
-    color: #999999; /* Sets links and separators to #999999 */
-    text-decoration: underline; /* Underlines links and separators */
+    color: #999999;
+    text-decoration: none; /* Removes underline from separators */
 }
 
 .cv-link {
@@ -45,4 +44,9 @@ h1, .contact-info p {
 
 .cv-link a {
     padding: 0 5px;
+}
+
+.cv-link a:hover,
+.contact-info a:hover {
+    color: #666666;
 }

@@ -15,7 +15,7 @@ body {
 }
 
 .centered-image img {
-    max-width: 45%; /* Shrink image size */
+    max-width: 60%; /* Shrink image size */
     height: auto;
     max-width: 150px; /* Limits image size further */
 }

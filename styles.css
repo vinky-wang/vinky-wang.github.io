@@ -1,65 +1,72 @@
+/* Basic styling for the body */
 body {
-    margin: 0;
-    background: white;
-    text-align: center;
-    font-family: Helvetica, Arial, sans-serif;
-    color: #999999;
-    font-size: 0.9em; /* Shrink overall font size */
+    margin: 0; /* Removes default margin around the page */
+    background: #FFFFFF; /* Sets the background color to white */
+    text-align: center; /* Centers text alignment across the page */
+    font-family: Verdana, Arial, Helvetica, sans-serif; /* Sets a sans-serif font stack */
+    color: #999999; /* Sets the default font color to a light grey */
+    font-size: 12px; /* Sets base font size to 12px */
 }
 
+/* Styling for the container holding the centered image */
 .centered-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
+    display: flex; /* Uses flexbox for centering */
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center; /* Vertically centers the content */
+    padding-top: 15px; /* Reduces padding above the image for tighter fit */
 }
 
+/* Styling for the image itself */
 .centered-image img {
-    max-width: 60%; /* Shrink image size */
-    height: auto;
-    max-width: 150px; /* Limits image size further */
+    width: 300px; /* Sets a specific width for the image */
+    border: 3px solid #999999; /* Slightly smaller border to fit better */
+    max-width: 80%; /* Limits image width to 80% of container on smaller screens */
 }
 
+/* Styling for the main header (name/title) */
 h1 {
-    font-size: 1.5em; /* Shrink main header font size */
-    color: black;
-    margin-top: 10px;
+    font-size: 1.25em; /* Equivalent to 15px if body font size is 12px */
+    color: #000000; /* Sets header color to black */
+    margin-top: 8px; /* Reduces space above the header */
+    line-height: 1.5em; /* Sets line height for better spacing */
 }
 
+/* Styling for the contact information section */
 .contact-info {
-    font-size: 0.9em; /* Shrink contact info font size */
-    margin-top: 5px;
-    max-width: 250px;
-    margin: 0 auto;
+    font-size: 1em; /* Ensures text remains 12px */
+    line-height: 1.5em; /* Defines line height for better readability */
+    max-width: 250px; /* Limits width for better fit */
+    margin: 0 auto; /* Centers the content within the page */
+    color: #000000; /* Sets text color to black */
 }
 
-.contact-info p {
-    margin: 5px 0;
-    color: black;
-}
-
+/* Styling for the container holding the links */
 .cv-link {
-    margin-top: 15px; /* Reduce margin space */
-    font-size: 0.9em;
+    margin-top: 10px; /* Reduces space above the links */
+    font-size: 1em; /* Sets font size for link text to match body text */
 }
 
+/* Styling for the links within the cv-link section */
 .cv-link a {
-    padding: 0 3px; /* Reduce padding */
-    color: #999999;
+    color: #999999; /* Sets link color to grey */
+    text-decoration: none; /* Removes underline from links */
 }
 
+/* Styling for separators between links */
 .separator {
-    color: #999999;
-    text-decoration: none;
+    color: #999999; /* Sets separator color to grey */
 }
 
+/* General link styling */
 a {
-    color: #999999;
-    text-decoration: underline;
+    color: #999999; /* Sets link color to grey */
+    text-decoration: underline; /* Underlines links for visibility */
 }
 
+/* Hover effects for links in the cv-link and contact-info sections */
 .cv-link a:hover,
 .contact-info a:hover {
-    color: #666666;
+    color: #666666; /* Darkens color on hover */
 }
+
 

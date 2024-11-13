@@ -19,7 +19,6 @@ body {
 /* Styling for the image itself */
 .centered-image img {
     width: 300px; /* Sets a specific width for the image */
-    border: 3px solid #999999; /* Slightly smaller border to fit better */
     max-width: 80%; /* Limits image width to 80% of container on smaller screens */
 }
 

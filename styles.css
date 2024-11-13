@@ -1,64 +1,93 @@
+/* Reset margin for body and set font properties */
 body {
     margin: 0;
     background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
-    color: #555555;
-    font-size: 0.9em; /* Shrink overall font size */
+    color: #999999;
 }
 
+/* Center the image and make it responsive */
 .centered-image {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .centered-image img {
-    max-width: 30%; /* Shrink image size */
+    max-width: 50%; /* Adjust to 80% for smaller screens */
     height: auto;
-    max-width: 150px; /* Limits image size further */
 }
 
-h1 {
-    font-size: 1.5em; /* Shrink main header font size */
+/* Style header and contact info */
+h1, .contact-info p {
     color: black;
-    margin-top: 10px;
+    font-size: 2em; /* Default font size for h1 */
+    margin: 0;
 }
 
 .contact-info {
-    font-size: 0.9em; /* Shrink contact info font size */
-    margin-top: 5px;
-    max-width: 250px;
-    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 10px;
 }
 
-.contact-info p {
-    margin: 5px 0;
-    color: black;
+/* Style links */
+a {
+    color: #999999;
+    text-decoration: underline; /* Keeps underline for links */
 }
 
-.cv-link {
-    margin-top: 15px; /* Reduce margin space */
-    font-size: 0.9em;
-}
-
-.cv-link a {
-    padding: 0 3px; /* Reduce padding */
-    color: #555555;
-}
-
+/* Remove underline from separators */
 .separator {
-    color: #555555;
+    color: #999999;
     text-decoration: none;
 }
 
-a {
-    color: #555555;
-    text-decoration: underline;
+.cv-link {
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.cv-link a {
+    padding: 0 5px;
 }
 
 .cv-link a:hover,
 .contact-info a:hover {
-    color: #333333;
+    color: #999999;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em; /* Slightly smaller for medium screens */
+    }
+
+    .contact-info {
+        font-size: 0.9em;
+    }
+
+    .cv-link {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* Smaller for mobile screens */
+    }
+
+    .contact-info {
+        font-size: 0.8em;
+    }
+
+    .cv-link {
+        font-size: 0.8em;
+    }
+
+    .centered-image img {
+        max-width: 90%; /* Allow more space for image on small screens */
+    }
+}
+

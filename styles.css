@@ -1,93 +1,32 @@
-/* Reset margin for body and set font properties */
 body {
     margin: 0;
     background: white;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     color: #999999;
-}
-
-/* Center the image and make it responsive */
-.centered-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
+    font-size: 0.9em; /* Adjusted font size for body */
 }
 
 .centered-image img {
-    max-width: 50%; /* Adjust to 80% for smaller screens */
+    max-width: 30%; /* Reduced the max-width for a smaller image */
     height: auto;
 }
 
-/* Style header and contact info */
-h1, .contact-info p {
+h1 {
+    font-size: 1.5em; /* Reduced font size for the main heading */
     color: black;
-    font-size: 2em; /* Default font size for h1 */
-    margin: 0;
 }
 
 .contact-info {
-    font-size: 1em;
-    margin-top: 10px;
-}
-
-/* Style links */
-a {
-    color: #999999;
-    text-decoration: underline; /* Keeps underline for links */
-}
-
-/* Remove underline from separators */
-.separator {
-    color: #999999;
-    text-decoration: none;
+    font-size: 0.9em; /* Reduced font size for contact info */
+    margin-top: 8px;
 }
 
 .cv-link {
-    margin-top: 30px;
-    font-size: 1em;
+    margin-top: 20px;
+    font-size: 0.9em; /* Reduced font size for links */
 }
 
 .cv-link a {
-    padding: 0 5px;
+    padding: 0 4px;
 }
-
-.cv-link a:hover,
-.contact-info a:hover {
-    color: #999999;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.8em; /* Slightly smaller for medium screens */
-    }
-
-    .contact-info {
-        font-size: 0.9em;
-    }
-
-    .cv-link {
-        font-size: 0.9em;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.5em; /* Smaller for mobile screens */
-    }
-
-    .contact-info {
-        font-size: 0.8em;
-    }
-
-    .cv-link {
-        font-size: 0.8em;
-    }
-
-    .centered-image img {
-        max-width: 90%; /* Allow more space for image on small screens */
-    }
-}
-

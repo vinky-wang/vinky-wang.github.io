@@ -4,29 +4,62 @@ body {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     color: #999999;
-    font-size: 0.9em; /* Adjusted font size for body */
+    font-size: 0.9em; /* Shrink overall font size */
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .centered-image img {
-    max-width: 30%; /* Reduced the max-width for a smaller image */
+    max-width: 45%; /* Shrink image size */
     height: auto;
+    max-width: 150px; /* Limits image size further */
 }
 
 h1 {
-    font-size: 1.5em; /* Reduced font size for the main heading */
+    font-size: 1.5em; /* Shrink main header font size */
     color: black;
+    margin-top: 10px;
 }
 
 .contact-info {
-    font-size: 0.9em; /* Reduced font size for contact info */
-    margin-top: 8px;
+    font-size: 0.9em; /* Shrink contact info font size */
+    margin-top: 5px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: black;
 }
 
 .cv-link {
-    margin-top: 20px;
-    font-size: 0.9em; /* Reduced font size for links */
+    margin-top: 15px; /* Reduce margin space */
+    font-size: 0.9em;
 }
 
 .cv-link a {
-    padding: 0 4px;
+    padding: 0 3px; /* Reduce padding */
+    color: #999999;
 }
+
+.separator {
+    color: #999999;
+    text-decoration: none;
+}
+
+a {
+    color: #999999;
+    text-decoration: underline;
+}
+
+.cv-link a:hover,
+.contact-info a:hover {
+    color: #666666;
+}
+

@@ -30,6 +30,10 @@ h1, .contact-info p {
     margin-top: 10px;
 }
 
+.contact-info p {
+    text-decoration: none; /* Ensures paragraphs within .contact-info are not underlined */
+}
+
 /* Styling for all links and separators */
 .contact-info a,
 .cv-link a,
